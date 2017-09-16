@@ -14,4 +14,21 @@
 body {
   background-color: black;
   font-family: 'aileronthin', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 35pt;
+  margin-bottom: 7px;
+}
+
+hr {
+  color: white;
+  background-color: white;
+  width: 345px;
+  border: 6px;
+  border-style: solid;
+  border-top: 7px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
