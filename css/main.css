@@ -18,6 +18,10 @@ body {
   height: 100vh;
 }
 
+#lander {
+  height: 90vh;
+}
+
 h1 {
   font-size: 35pt;
   margin-bottom: 7px;
@@ -32,4 +36,8 @@ hr {
   border-top: 7px;
   margin-top: 0px;
   margin-bottom: 10px;
+}
+
+a {
+  color: white;
 }
