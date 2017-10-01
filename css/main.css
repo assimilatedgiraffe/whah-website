@@ -18,6 +18,10 @@ body {
   height: 100vh;
 }
 
+#lander {
+  height: 90vh;
+}
+
 h1 {
   font-size: 35pt;
   margin-bottom: 7px;
@@ -32,4 +36,30 @@ hr {
   border-top: 7px;
   margin-top: 0px;
   margin-bottom: 10px;
+}
+
+a, a:hover {
+  color: white;
+}
+
+
+#logo a:hover {
+  text-decoration: none;
+}
+
+#logo a:hover span {
+  animation: fire 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fire {
+  0% {
+    color: orangered;
+  }
+  50% {
+    color: firebrick;
+  }
+  100% {
+    color: orangered;
+  }
 }
