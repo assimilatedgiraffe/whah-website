@@ -38,6 +38,28 @@ hr {
   margin-bottom: 10px;
 }
 
-a {
+a, a:hover {
   color: white;
+}
+
+
+#logo a:hover {
+  text-decoration: none;
+}
+
+#logo a:hover span {
+  animation: fire 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fire {
+  0% {
+    color: orangered;
+  }
+  50% {
+    color: firebrick;
+  }
+  100% {
+    color: orangered;
+  }
 }
